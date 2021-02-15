@@ -1,1 +1,1 @@
-[Portfolio](lagom-QB.github.io)
+[Portfolio](https://lagom-qb.github.io)

@@ -246,22 +246,28 @@
 			<style>
 				.container {
 					display: grid;
-					grid-gap: 0.06em;
-					grid-template-columns: [head-col-start] 0.4em [content-col-start] 0.8em [content-col-mid] 1.0em [head-col-end];
-					grid-template-rows: [head-row-start] auto [head-row-end] auto [content-row-end] auto [footer-row-end];
-				  }
-				.item {
-					padding: auto 0;
-				  }
-				.sidebar {
-					grid-column: head-col-start / content-col-start;
-					grid-row: head-row-end / content-row-end;
+					grid-gap: 10px;
+					grid-template-columns: [one-eighty] 180px [one-eighty] 180px [one-eighty] 180px;
+					grid-template-rows: [head-row] auto [content-row] auto [content-row] auto [content-row] auto [footer-row] auto;
 				  }
 				  
-				.content {
-					grid-column: content-col-start / head-col-end;
-					grid-row: head-row-end / content-row-end;
-					height: auto;
+				  .item {
+					padding: auto;
+				  }
+				  
+				  .sidebar {
+					grid-column: one-eighty 1 / one-eighty 2;
+					grid-row: content-row 1 / content-row 2;
+				  }
+				  
+				  .advert {
+					grid-column: one-eighty 1 / one-eighty 2;
+					grid-row: content-row 2 / content-row 3;
+				  }
+				  
+				  .content {
+					grid-column: one-eighty 2 / one-eighty 4;
+					grid-row: content-row 1 / span content-row 2;
 				  }
 			  </style>
 			<!-- Hitch Hiker's Guide-->
@@ -280,7 +286,7 @@
 								</div>
 							</div>
 							<div>
-								<div class="item sidebar"> 
+								<div class="item advert"> 
 									<a href='https://public.tableau.com/views/HowPollutionandClimateIndexInfluenceTrafficCommuteTime/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link' target='_blank'>
 										<img src='https://i.postimg.cc/bYxSqNTF/image.png' alt='image' style = "border-radius : 5% " width="200px"
 										height="150px"/></a>

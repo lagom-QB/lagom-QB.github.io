@@ -271,55 +271,28 @@
 
 
 			<!--Projects Sections-->
-			<style>
-				.container {
-					display: grid;
-					grid-gap: 10px;
-					grid-template-columns: [one-eighty] 380px [one-eighty] 380px [one-eighty] 380px;
-					grid-template-rows: [head-row] auto [content-row] auto [content-row] auto [content-row] auto [footer-row] auto;
-				  }
-				  
-				  .item {
-					padding: auto;
-				  }
-				  
-				  .sidebar {
-					grid-column: one-eighty 1 / one-eighty 2;
-					grid-row: content-row 1 / content-row 2;
-				  }
-				  
-				  .advert {
-					grid-column: one-eighty 1 / one-eighty 2;
-					grid-row: content-row 2 / content-row 3;
-				  }
-				  
-				  .content {
-					grid-column: one-eighty 2 / one-eighty 4;
-					grid-row: content-row 1 / span content-row 2;
-				  }
-			</style>
 			<!-- Hitch Hiker's Guide-->
 			<article id="Hitch_Hiker_Guide">
 				<h2 class="major">Hitch Hiker's Guide</h2>
 				<section class="container">
 					<div class="text" style="font-family: monospace; font-size:0.5em;">
-							<div>
-								<div class="item sidebar"> 
+							<div class="flex-container">
+								<div class="flex-child"> 
 									<a href='https://public.tableau.com/views/RestaurantPricing/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link' target='_blank'>
 										<img src='https://i.postimg.cc/HWynkPsv/image.png' alt='image' style = "border-radius : 5% " width="200px" height="150px"/>
 									</a> 
 								</div>
-								<div class="item content"> Food here considers just fancy dining and eating out.
+								<div class="flex-chile"> Food here considers just fancy dining and eating out.
 									<p> I think restaurant prices should be influenced by climate index and safety index. 
 								</div>
 							</div>
-							<div>
-								<div class="item advert"> 
+							<div class="flex-container">
+								<div class="flex-child"> 
 									<a href='https://public.tableau.com/views/HowPollutionandClimateIndexInfluenceTrafficCommuteTime/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link' target='_blank'>
 										<img src='https://i.postimg.cc/bYxSqNTF/image.png' alt='image' style = "border-radius : 5% " width="200px"
 										height="150px"/></a>
 								</div>
-								<div class="item content">
+								<div class="flex-child">
 									I withheld myself from assuming Climate Index and Pollution Index have an effect on commute time.
 									<p> So i decided to check the correlation and covariance of Traffic Commute Time Index, Pollution Index and Climate Index.
 									<p> I noticed the covariance of:

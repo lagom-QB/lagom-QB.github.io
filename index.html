@@ -246,8 +246,8 @@
 			<style>
 				.container {
 					display: grid;
-					grid-gap: 10px;
-					grid-template-columns: [head-col-start] 180px [content-col-start] 180px [content-col-mid] 180px [head-col-end];
+					grid-gap: 4px;
+					grid-template-columns: [head-col-start] 20px [content-col-start] 20px [content-col-mid] 20px [head-col-end];
 					grid-template-rows: [head-row-start] auto [head-row-end] auto [content-row-end] auto [footer-row-end];
 				  }
 				.item {
@@ -261,6 +261,7 @@
 				.content {
 					grid-column: content-col-start / head-col-end;
 					grid-row: head-row-end / content-row-end;
+					height: 20px;
 				  }
 			  </style>
 			<!-- Hitch Hiker's Guide-->

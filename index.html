@@ -198,22 +198,25 @@
 				  .container {
 					  padding: 10px 30px 10px 20px !important;
 				  }
-				  .image{
-					  border-radius: 5% !important;
-					  height: 200px !important;
-					  width: 200px !important;
-				  }
+				  .flex-container {
+					display: flex;
+					}
+					.flex-child {
+						flex: 1;
+						border: 1px solid black;
+					}  
+					
+					.flex-child:first-child {
+						margin-right: 20px;
+					}
 			</style>
 			<!-- Main Projects -->
 			<article id="projects" style="font-family:'Lucida Console', monospace; font-size:0.3em">
 				<h2 class="major">Projects</h2>
 				<div class="card">
-					<div class="container">
-						<center>
-							<img class="image" src='https://i.postimg.cc/HWynkPsv/image.png' alt='image'>
-						</center>
-						<div>
-
+					<div class="flex-container">
+						<img class="flex-child" style="border-radius: 5% !important; height: 200px !important; width: 200px !important" src='https://i.postimg.cc/HWynkPsv/image.png' alt='image'>
+						<div class="flex-child">
 							<h5 class="card-title">Hitch Hiker's Guide</h5>
 								When taking a trip spontaneous or not, I think the hitch-hiker has to consider 5 main things:<br>
 									<ul>

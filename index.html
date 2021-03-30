@@ -246,12 +246,12 @@
 			<style>
 				.container {
 					display: grid;
-					grid-gap: 4px;
-					grid-template-columns: [head-col-start] 80px [content-col-start] 80px [content-col-mid] 80px [head-col-end];
+					grid-gap: 0.06em;
+					grid-template-columns: [head-col-start] 0.4em [content-col-start] 0.8em [content-col-mid] 1.0em [head-col-end];
 					grid-template-rows: [head-row-start] auto [head-row-end] auto [content-row-end] auto [footer-row-end];
 				  }
 				.item {
-					padding: 1px 0;
+					padding: auto 0;
 				  }
 				.sidebar {
 					grid-column: head-col-start / content-col-start;
@@ -261,7 +261,7 @@
 				.content {
 					grid-column: content-col-start / head-col-end;
 					grid-row: head-row-end / content-row-end;
-					height: 180px;
+					height: auto;
 				  }
 			  </style>
 			<!-- Hitch Hiker's Guide-->

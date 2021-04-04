@@ -1,2 +1,3 @@
+## Hey there 🙋‍♀️  
 
-<a href="https://lagom-qb.github.io" target="_blank">Portfolio</a>
+I am Brenda 🧚‍♀️ . Check out my [📕](https://lagom-qb.github.io)

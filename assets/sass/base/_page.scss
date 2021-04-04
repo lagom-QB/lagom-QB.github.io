@@ -11,10 +11,10 @@
 			width: device-width;
 		}
 
-	// Ensures page width is always >=340px.
+	// Ensures page width is always >=350px.
 		@include breakpoint('<=xsmall') {
 			html, body {
-				min-width: 340px;
+				min-width: 350px;
 			}
 		}
 

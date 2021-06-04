@@ -123,14 +123,24 @@
 				  box-sizing: border-box;
 				}
 
-				.row {
-				  display: flex;
+				.column {
+				  float: left;
+				  width: 10%;
+				  padding: 5px;
 				}
 
-				.column {
-				  flex: 9.09%;
-				  padding: 5em;
-				  border-radius:5em; 
+				/* Clearfix (clear floats) */
+				.row::after {
+				  content: "";
+				  clear: both;
+				  display: table;
+				}
+
+				/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+				@media screen and (max-width: 500px) {
+				  .column {
+				    width: 100%;
+				  }
 				}
 			</style>
 			<article id="intro">

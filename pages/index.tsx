@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+
 import styles from "../styles/Home.module.css";
 
 import AboutMe from "../components/body/AboutMe";
@@ -9,7 +10,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <AboutMe />
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -48,7 +49,7 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
-      </main>
+      </main> */}
     </div>
   );
 };

@@ -9,6 +9,16 @@ import Footer from "../components/Footer";
 export const client = new ApolloClient({
   uri: "https://api-eu-central-1.graphcms.com/v2/cl39zv7no07cu01z2gjet3ce5/master",
   cache: new InMemoryCache(),
+
+  // Provide some optional constructor fields
+  name: "react-web-client",
+  version: "1.3",
+  queryDeduplication: false,
+  defaultOptions: {
+    watchQuery: {
+      fetchPolicy: "cache-and-network",
+    },
+  },
 });
 
 function MyApp({ Component, pageProps }: AppProps) {

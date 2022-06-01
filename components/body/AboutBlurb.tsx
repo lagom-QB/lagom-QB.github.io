@@ -1,43 +1,20 @@
 import React from "react";
+import styles from "../ComponentStyles/AboutBlurb.module.css";
 import { motion } from "framer-motion";
 
-import styles from "../ComponentStyles/AboutMe.module.css";
-
-import { useAuthorsQuery } from "./fetchers/Author";
-import TextSwap from "./SwapAnimation";
-
-function AboutMe() {
-  const { loading, error, data } = useAuthorsQuery();
-  const name = "Quinsy Brenda";
-  let allAboutMes: string[] = [];
-
-  if (loading) {
-    <pre>Loading...</pre>;
-  }
-  if (error) {
-    <pre>An Error occured while fetching the data</pre>;
-  }
-  if (data) {
-    for (let i = 1; i < data.authors.length; i++) {
-      allAboutMes[i] = data.authors[i].aboutMe;
-    }
-
-    allAboutMes = Object.values(allAboutMes);
-  }
-
+function AboutBlurb() {
   return (
-    <div className={styles.container}>
-      <motion.ul
-        className={styles.entryText}
-        animate={{ x: [400, 0] }}
+    <div>
+      <motion.div
+        className={styles.container}
+        animate={{ opacity: [0, 1], x: [600, 0] }}
         transition={{ duration: 2, type: "spring" }}
       >
+        <div className={styles.Title}>
+          <h1>Hi, I'm Quinsy Brenda</h1>
+        </div>
         <div>
           <div className={styles.gg}>
-            <div className={styles.pinkBlue}></div>
-            <div className={styles.disk}></div>
-          </div>
-          <div className={styles.gg}>
             <div className={styles.yellowRed}></div>
           </div>
           <div className={styles.gg}>
@@ -48,44 +25,48 @@ function AboutMe() {
           <div className={styles.gg}>
             <div className={styles.pinkBlue}></div>
             <div className={styles.disk}></div>
-            <div className={styles.disk}></div>
             <div className={styles.pinkBlue}></div>
+            <div className={styles.disk}></div>
+          </div>
+          <div>
+            <div className={styles.gg} />
+            <p className={styles.description}>
+              I’m a creative developer / Information Designer.
+              <br />
+              I use Tableau, Typescript and Python to create experiences and
+              products.
+              <br />
+              I'm currently working on
+              <a className={styles.links} href="https://github.com/lagom-QB">
+                { " "}personal projects
+              </a>
+              .
+            </p>
+            <div className={styles.gg} />
           </div>
           <div className={styles.gg}></div>
           <div className={styles.gg}>
-            <div className={styles.disk}></div>
+            <div className={styles.blueGreen}></div>
             <div className={styles.yellowRed}></div>
           </div>
           <div className={styles.gg}></div>
-          <div className="Title">
-            <h1>{name}</h1>
-            <TextSwap strings={allAboutMes} animationType="fade" />
-          </div>
-          <div className={styles.gg}></div>
-          <div className={styles.gg}>
-            <div className={styles.blueGreen}></div>
-            <div className={styles.yellowRed}></div>
-          </div>
-          <div className={styles.gg}></div>
           <div className={styles.gg}>
             <div className={styles.pinkBlue}></div>
             <div className={styles.blueGreen}></div>
-            <div className={styles.blueGreen}></div>
+            <div className={styles.pinkBlue}></div>
           </div>
           <div className={styles.gg}>
             <div className={styles.blueGreen}></div>
             <div className={styles.pinkBlue}></div>
-            <div className={styles.blueGreen}></div>
           </div>
           <div className={styles.gg} />
           <div className={styles.gg}>
             <div className={styles.yellowRed}></div>
-            <div className={styles.blueGreen}></div>
           </div>
         </div>
-      </motion.ul>
+      </motion.div>
     </div>
   );
 }
 
-export default AboutMe;
+export default AboutBlurb;

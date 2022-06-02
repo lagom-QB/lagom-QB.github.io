@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "../ComponentStyles/Work.module.css";
 
 import { useProjectsQuery } from "./fetchers/Projects";
-import { UrlObject } from "url";
+import { Url, UrlObject } from "url";
 
 function Work() {
   const { loading, error, data } = useProjectsQuery();
@@ -85,7 +85,7 @@ function Work() {
             {data?.projects.map(
               (projects: {
                 name: string | null | undefined;
-                link: string | null | undefined;
+                link: string | UrlObject | Url;
                 tags: any[];
               }) => (
                 <Link

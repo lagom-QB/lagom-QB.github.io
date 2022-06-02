@@ -11,7 +11,7 @@ function AboutBlurb() {
         transition={{ duration: 2, type: "spring" }}
       >
         <div className={styles.Title}>
-          <h1>Hi, I'm Quinsy Brenda</h1>
+          <h1>Hi, I&apos;m Quinsy Brenda</h1>
         </div>
         <div>
           <div className={styles.gg}>
@@ -36,9 +36,10 @@ function AboutBlurb() {
               I use Tableau, Typescript and Python to create experiences and
               products.
               <br />
-              I'm currently working on
+              I&apos;m currently working on
               <a className={styles.links} href="https://github.com/lagom-QB">
-                { " "}personal projects
+                {" "}
+                personal projects
               </a>
               .
             </p>

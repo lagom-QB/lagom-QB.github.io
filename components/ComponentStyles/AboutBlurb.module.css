@@ -80,13 +80,11 @@
   transform: translate(0px, 0px);
 }
 .Title {
-  /* margin: 0 10%; */
+  color: rgb(73, 73, 73);
   font-weight: 100;
-  font-size: 27px;
-  margin: 0 0 30px;
-  font-size: 27px;
-  margin: 0 0 30px;
+  margin: 0 0 6px 0;
   font-size: 14px;
+  text-align: center;
 }
 .description {
   margin-left: 10%;

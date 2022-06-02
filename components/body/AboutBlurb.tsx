@@ -16,13 +16,27 @@ function AboutBlurb() {
           damping: 5,
         }}
       >
+        <div className={styles.gg} style={ {marginLeft:"-30px"}}>
+          <div className={styles.pinkBlue} />
+          <motion.h1
+            animate={{
+              color: [
+                "rgb(242, 159, 255)",
+                "rgb(124, 153, 255)",
+                "rgb(95, 10, 213)",
+              ],
+            }}
+            transition={{ repeat: Infinity, duration: 3 }}
+          >
+            About Me
+          </motion.h1>
+          <div className={styles.gg} />
+        </div>
         <div className={styles.Title}>
           <h1>Hi, I&apos;m Quinsy Brenda</h1>
         </div>
         <div>
-          <div className={styles.gg}>
-            <div className={styles.yellowRed}></div>
-          </div>
+          <div className={styles.yellowRed}></div>
           <div className={styles.gg}>
             <div className={styles.yellowRed}></div>
             <div className={styles.pinkBlue}></div>

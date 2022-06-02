@@ -33,11 +33,11 @@ function Work() {
 
   const container = {
     hidden: {
-      y: 600,
+      x: 60,
       opacity: 0,
     },
     show: {
-      y: 0,
+      x: 0,
       opacity: 1,
       transition: {
         duration: 2,

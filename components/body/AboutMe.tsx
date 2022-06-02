@@ -29,8 +29,14 @@ function AboutMe() {
     <div className={styles.container}>
       <motion.ul
         className={styles.entryText}
-        animate={{ x: [400, 0] }}
-        transition={{ duration: 2, type: "spring" }}
+        animate={{ x: [60, 0], opacity: [0, 0, 1] }}
+        transition={{
+          duration: 2,
+          type: "spring",
+          stiffness: 10,
+          mass: 2,
+          damping: 5,
+        }}
       >
         <div>
           <div className={styles.gg}>

@@ -1,12 +1,9 @@
 {
   "name": "portfolio-ts",
-  "homepage": "https://lagom-qb.github.io/portfolio-ts",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "start": "next start",
-    "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "predeploy": "npm run build",

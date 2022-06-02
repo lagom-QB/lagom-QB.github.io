@@ -29,7 +29,7 @@ function AboutMe() {
     <div className={styles.container}>
       <motion.ul
         className={styles.entryText}
-        animate={{ x: [60, 0], opacity: [0, 0, 1] }}
+        animate={{ x: [60, 0], opacity: [0, 1] }}
         transition={{
           duration: 2,
           type: "spring",

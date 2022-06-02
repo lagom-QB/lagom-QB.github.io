@@ -28,7 +28,7 @@ function AboutBlurb() {
             }}
             transition={{ repeat: Infinity, duration: 3 }}
           >
-            About Me
+            About
           </motion.h1>
           <div className={styles.gg} />
         </div>

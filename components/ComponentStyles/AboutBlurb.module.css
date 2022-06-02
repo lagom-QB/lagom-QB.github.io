@@ -1,17 +1,18 @@
 .container {
-  height: 80vh;
-  width: 80vw;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
   position: absolute;
   top: 30%;
-  left: 7%;
-  overflow: hidden;
+  left: 10%;
+  padding: 0em;
 }
 
 .gg {
   display: flex;
   flex-direction: row;
   height: fit-content;
-  margin: 0.2rem 3rem;
+  margin: 0.2rem 2rem;
   opacity: 1;
   list-style: none;
 }
@@ -88,9 +89,9 @@
   font-size: 14px;
 }
 .description {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .links {
-  color:rgb(255, 105, 105);
+  color: rgb(255, 105, 105);
   text-decoration: wavy;
 }

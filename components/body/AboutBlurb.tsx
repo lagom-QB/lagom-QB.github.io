@@ -7,8 +7,14 @@ function AboutBlurb() {
     <div>
       <motion.div
         className={styles.container}
-        animate={{ opacity: [0, 1], x: [600, 0] }}
-        transition={{ duration: 2, type: "spring" }}
+        animate={{ opacity: [0, 0, 1], x: [60, 0] }}
+        transition={{
+          duration: 2,
+          type: "spring",
+          stiffness: 10,
+          mass: 2,
+          damping: 5,
+        }}
       >
         <div className={styles.Title}>
           <h1>Hi, I&apos;m Quinsy Brenda</h1>

@@ -70,7 +70,7 @@ function Work() {
           }}
           transition={{ repeat: Infinity, duration: 3 }}
         >
-          Projects
+          Works
         </motion.h1>
       </div>
       <Suspense fallback={<pre>Loading ...</pre>}>

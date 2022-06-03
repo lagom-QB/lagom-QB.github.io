@@ -88,12 +88,8 @@ function Work() {
                 link: string | UrlObject | Url;
                 tags: any[];
               }) => (
-                <Link
-                  href={projects.link}
-                  key={projects.name}
-                  className={styles.projectBox}
-                >
-                  <a>
+                <Link href={projects.link} key={projects.name}>
+                  <a className={styles.projectBox}>
                     <div className={styles.ggr}>
                       <div className={styles.blueGreen} />
                       <h3>{projects.name}</h3>

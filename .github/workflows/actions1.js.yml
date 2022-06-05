@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: npm install
+      run: yarn install
     - name: Run buid
       run: npm run build
     - name: Deploy to GitHub Pages

@@ -4,6 +4,7 @@
   "homepage": "https://lagom-qb.github.io",
   "private": true,
   "license": "UNLICENSED",
+  "homepage": "https://lagom-qb.github.io",
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",

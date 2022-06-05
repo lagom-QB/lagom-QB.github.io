@@ -1,6 +1,7 @@
 {
   "name": "portfolio-ts",
   "version": "0.1.0",
+  "homepage": "https://lagom-qb.github.io",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

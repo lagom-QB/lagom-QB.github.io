@@ -12,8 +12,13 @@ jobs:
       run: |
         yarn install  
         npm run build  
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.2.5
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.3.3 
       with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: out 
+        branch: gh-pages
+        clean: true
+        clean-exclude: |
+            special-file.txt
+            some/*.txt
+        folder: site
+        ssh-key: ${{ secrets.git-key }}

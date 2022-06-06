@@ -8,7 +8,7 @@ jobs:
     - name: Install modules
       run: yarn install
     - name: Run buid
-      run: npm run deploy
+      run: yarn run build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:

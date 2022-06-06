@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
-    concurrency:
+    #concurrency:
       #group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
@@ -42,4 +42,4 @@ jobs:
         #if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.QB-pub }}
-          publish_dir: ./out
+          publish_dir: ./next

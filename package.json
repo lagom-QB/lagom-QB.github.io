@@ -5,10 +5,10 @@
   "license": "UNLICENSED",
   "homepage": "https://lagom-qb.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "dev": "next dev",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "next build"
   },

@@ -6,11 +6,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: npm install
-    - name: Run tests
-      run: npm test
+      run: yarn install
     - name: Run buid
-      run: npm run build
+      run: | 
+        npm run build
+        npm run deploy
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:

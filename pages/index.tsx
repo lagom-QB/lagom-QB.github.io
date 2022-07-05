@@ -4,11 +4,13 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import AboutMe from "../components/body/AboutMe";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <AboutMe />
+      <Footer />
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>

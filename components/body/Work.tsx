@@ -73,6 +73,7 @@ function Work() {
           Works
         </motion.h1>
       </div>
+      <div className={styles.wrapColumn}>
       <Suspense fallback={<pre>Loading ...</pre>}>
         <div>
           <motion.ul
@@ -109,6 +110,7 @@ function Work() {
           </motion.ul>
         </div>
       </Suspense>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,9 @@
   height: 100vh;
   position: relative;
   padding: 2rem 4rem;
-  overflow: hidden;
+  overflow: auto;
+  margin: 0 auto;
+  /* width: 60%; */
 }
 .ggr {
   display: flex;
@@ -16,9 +18,10 @@
 } */
 .gg {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: fit-content;
-  margin: 0rem 1rem;
+  margin: 0rem 2rem;
   opacity: 1;
   list-style: none;
 }
@@ -26,8 +29,9 @@
   background: ghostwhite;
   border: 0.1px solid ghostwhite;
   cursor: pointer;
-  margin: 0.4rem 0rem;
-  max-width: 25vh;
+  margin: 0.4rem 2rem;
+  padding: 0.5rem;
+  max-width: 30vh;
   border-radius: 2px;
   -webkit-box-shadow: 8px 5px 3px -3px rgba(0, 0, 0, 0.34);
   box-shadow: 8px 5px 3px -3px rgba(0, 0, 0, 0.34);

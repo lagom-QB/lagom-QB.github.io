@@ -73,8 +73,9 @@ function Work() {
           Works
         </motion.h1>
       </div>
+      
       <Suspense fallback={<pre>Loading ...</pre>}>
-        <div>
+        <div style={{padding:" 10% 0 0 0"}}>
           <motion.ul
             className={styles.gg}
             style={{ listStyle: "none" }}

@@ -11,6 +11,18 @@
   position: relative;
   padding: 0rem;
 }
+.containerColumn{
+  columns: 2;
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .entryText {
   position: absolute;
   top: 20%;
@@ -98,6 +110,7 @@
   width: 80%;
   margin-left: 3%;
   line-height: 1.5;
+  font-size: 20px;
 }
 .links {
   color: rgb(255, 105, 105);

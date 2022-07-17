@@ -65,7 +65,7 @@ function AboutMe() {
           <div className={styles.gg}></div>
           <div className="Title">
             <h1>{name}</h1>
-            <TextSwap strings={allAboutMes} animationType="fade" />
+            <h3><TextSwap strings={allAboutMes} animationType="fade" /></h3>
           </div>
           <div className={styles.gg}></div>
           <div className={styles.gg}>
@@ -90,6 +90,7 @@ function AboutMe() {
           </div>
         </div>
       </motion.ul>
+      
     </div>
   );
 }

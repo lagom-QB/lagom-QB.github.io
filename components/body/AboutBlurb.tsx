@@ -55,17 +55,28 @@ function AboutBlurb() {
             <div>
               <div className={styles.gg} />
               <p className={styles.description}>
-                I’m a creative developer / Information Designer.
+                <h2>Hello there 👋<\h2>
                 <br />
-                I use Tableau, Typescript and Python to create experiences and
-                products.
+                I'm Brenda. I'm a Data Scientist and MSc student somewhere in Spain 🇪🇦.
+                I'm interested in Data Art , Visualization and Analysis because everything therein 
+                depends on perspective and it's fun to see how many different perspectives do exist.
                 <br />
+                Outside of Data Science, I enjoy:
+                <ul>    
+                  <li>Walks 🥾 📸<\li>
+                  <li>Novels 📖 and Movies 🎞️<\li>
+                  <li>Drawing 🖋️<\li>
+                  <li>Novelties 🎊<\li>
+                <\ul>
+                <br\>
                 I&apos;m currently working on
                 <a className={styles.links} href="https://github.com/lagom-QB">
                   {" "}
-                  personal projects
+                  personal projects.
                 </a>
-                .
+                  <br\>
+                  You can always 📫 | 📜 to work on a project or just for a lovely chat ☕️.
+                  👯 BTW I’m also looking to collaborate on short-term social projects.
               </p>
               <div className={styles.gg} />
             </div>

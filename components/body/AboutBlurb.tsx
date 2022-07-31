@@ -37,7 +37,7 @@ function AboutBlurb() {
             <div className={styles.gg} />
           </div>
           <div className={styles.Title}>
-            <h1>Hi, I&apos;m Quinsy Brenda</h1>
+            <h2>Hello there 👋<\h2>
           </div>
           <div>
             <div className={styles.yellowRed}></div>
@@ -55,7 +55,6 @@ function AboutBlurb() {
             <div>
               <div className={styles.gg} />
               <p className={styles.description}>
-                <h2>Hello there 👋<\h2>
                 <br />
                 I'm Brenda. I'm a Data Scientist and MSc student somewhere in Spain 🇪🇦.
                 I'm interested in Data Art , Visualization and Analysis because everything therein 
@@ -133,6 +132,7 @@ function AboutBlurb() {
         </div>
       </div>
     </div>
+                    </div>
   );
 }
 

@@ -92,13 +92,6 @@ function TechSkills() {
                 >
                   <div className={styles.disk} />
                   <motion.h3>{skills.language}</motion.h3>
-
-                  <div>
-                    <div className={styles.blueGreen} />
-                    <motion.h3 >
-                      ({skills.proficiency} | 5)  
-                    </motion.h3>
-                  </div>
                 </div>
               )
             )}

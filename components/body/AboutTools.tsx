@@ -92,13 +92,6 @@ function Tools() {
                 >
                   <div className={styles.disk} />
                   <motion.h3>{tools.tools}</motion.h3>
-
-                  <div>
-                    <div className={styles.blueGreen} />
-                    <motion.h3 >
-                      ({tools.level} | 5)  
-                    </motion.h3>
-                  </div>
                 </div>
               )
             )}

@@ -132,7 +132,7 @@ function AboutBlurb() {
         </div>
       </div>
     </div>
-                    </div>
+  </div>
   );
 }
 

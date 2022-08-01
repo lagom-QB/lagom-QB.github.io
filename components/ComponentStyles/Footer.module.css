@@ -1,7 +1,7 @@
 .Footer {
   margin: 2rem;
   position: fixed;
-  right: -0.2rem;
+  right: 3.8rem;
   bottom: 30px;
   transform: rotate(-90deg) translateX(100%);
   transform-origin: bottom right;

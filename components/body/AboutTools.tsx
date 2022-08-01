@@ -67,7 +67,6 @@ function Tools() {
             ],
           }}
           transition={{ repeat: Infinity, duration: 3 }}
-          style={{font-size:"20px"}}
         >
           Technology
         </motion.h2>

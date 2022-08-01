@@ -67,8 +67,9 @@ function TechSkills() {
             ],
           }}
           transition={{ repeat: Infinity, duration: 3 }}
+          style={{font-size:"20px"}}
         >
-          Tech Tools
+          Programming
         </motion.h2>
       </div>
       <Suspense fallback={<pre>Loading ...</pre>}>

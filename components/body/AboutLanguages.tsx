@@ -56,49 +56,34 @@ function TechSkills() {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.ggr}>
-        <motion.h2
-          animate={{
-            color: [
-              "rgb(242, 159, 255)",
-              "rgb(124, 153, 255)",
-              "rgb(95, 10, 213)",
-            ],
-          }}
-          transition={{ repeat: Infinity, duration: 3 }}
-          style={{font-size:"20px"}}
-        >
-          Programming
-        </motion.h2>
+    <>
+      <div className={styles.container}>
+          <div className={styles.ggr}>
+              <motion.h2 animate={{ color: [ "rgb(242, 159, 255)" , "rgb(124, 153, 255)" , "rgb(95, 10, 213)" , ], }}
+                  transition={{ repeat: Infinity, duration: 3 }} style={{font-size:"20px",}}>
+                  Programming
+              </motion.h2>
+          </div>
+          <Suspense fallback={<pre>Loading ...</pre>}>
+              <div>
+                  <motion.ul className={styles.gg} style={{ listStyle: "none", }} variants={container} initial="hidden"
+                      animate="show">
+                      {data?.programmingLanguagez.map(
+                      (skills: {
+                      language: string | null | undefined;
+                      proficiency: number;
+                      }) => (
+                      <div className={styles.ggr} key={skills.language}>
+                          <div className={styles.disk} />
+                          <motion.h3>{skills.language}</motion.h3>
+                      </div>
+                      )
+                      )}
+                  </motion.ul>
+              </div>
+          </Suspense>
       </div>
-      <Suspense fallback={<pre>Loading ...</pre>}>
-        <div>
-          <motion.ul
-            className={styles.gg}
-            style={{ listStyle: "none" }}
-            variants={container}
-            initial="hidden"
-            animate="show"
-          >
-            {data?.programmingLanguagez.map(
-              (skills: {
-                language: string | null | undefined;
-                proficiency: number;
-              }) => (
-                <div
-                  className={styles.ggr}
-                  key={skills.language}
-                >
-                  <div className={styles.disk} />
-                  <motion.h3>{skills.language}</motion.h3>
-                </div>
-              )
-            )}
-          </motion.ul>
-        </div>
-      </Suspense>
-    </div>
+      </>
   );
 }
 

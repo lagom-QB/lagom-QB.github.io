@@ -59,7 +59,7 @@ function TechSkills() {
     <div className={styles.container}>
       <div className={styles.ggr}>
         <div className={styles.blueGreen} />
-        <motion.h1
+        <motion.h2
           animate={{
             color: [
               "rgb(242, 159, 255)",
@@ -70,7 +70,7 @@ function TechSkills() {
           transition={{ repeat: Infinity, duration: 3 }}
         >
           Tech Tools
-        </motion.h1>
+        </motion.h2>
       </div>
       <Suspense fallback={<pre>Loading ...</pre>}>
         <div>

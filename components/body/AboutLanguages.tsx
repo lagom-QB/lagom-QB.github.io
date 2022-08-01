@@ -58,7 +58,7 @@ function TechSkills() {
   return (
     <div className={styles.container}>
       <div className={styles.ggr}>
-        <div className={styles.blueGreen} />
+        <!--<div className={styles.blueGreen} />-->
         <motion.h2
           animate={{
             color: [

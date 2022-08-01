@@ -6,6 +6,12 @@
   margin: 0 auto;
   width: 60%;
 }
+.containerColumn{
+  columns: 2;
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .entryText {
   position: absolute;

@@ -8,7 +8,7 @@ import Tools from "./AboutTools";
 function AboutBlurb() {
   return (
     <div className={styles.container}>
-    <div className={styles.containerCols}>
+    <div className={styles.containerColumn}>
         <motion.div className={styles.entryText} animate={{ opacity: [0, 1], x: [60, 0] }} transition={{ duration: 2,
             type: "spring" , stiffness: 10, mass: 2, damping: 5, }}>
             <div className={styles.gg}>

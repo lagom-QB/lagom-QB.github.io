@@ -58,7 +58,7 @@ function Tools() {
   return (
     <div className={styles.container}>
       <div className={styles.ggr}>
-        <div className={styles.pinkBlue} />
+        <div className={styles.blueGreen} />
         <motion.h1
           animate={{
             color: [

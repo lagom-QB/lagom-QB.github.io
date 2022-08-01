@@ -96,7 +96,7 @@ function AboutMe() {
       </motion.ul>
       <motion.div className={styles.containerColumn} animate={{ opacity: [0, 1]}} 
         transition={{ duration: 2, type: "spring" , stiffness: 10, mass: 2, damping: 5, delay: 2, }} >
-            <div className={styles.entryText} style={{right: "3rem",}}>
+            <div className={styles.entryText} style={{right: "10rem",}}>
                 <TechSkills />
             </div>
             <div className={styles.entryText}>

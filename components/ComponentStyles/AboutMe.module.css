@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   padding: 0 0em;
   margin: 0 auto;

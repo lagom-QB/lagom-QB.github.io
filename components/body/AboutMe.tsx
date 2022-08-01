@@ -29,6 +29,7 @@ function AboutMe() {
   }
 
   return (
+    <>
     <div className={styles.container}>
       <motion.ul
         className={styles.entryText}
@@ -102,8 +103,8 @@ function AboutMe() {
                 <Tools />
             </div>
         </motion.div>
-      
     </div>
+      </>
   );
 }
 

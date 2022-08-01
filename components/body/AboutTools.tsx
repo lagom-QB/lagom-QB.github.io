@@ -67,8 +67,9 @@ function Tools() {
             ],
           }}
           transition={{ repeat: Infinity, duration: 3 }}
+          style={{font-size:"20px"}}
         >
-          Tools
+          Technology
         </motion.h2>
       </div>
       <Suspense fallback={<pre>Loading ...</pre>}>

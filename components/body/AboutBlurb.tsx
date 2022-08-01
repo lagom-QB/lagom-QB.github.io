@@ -39,9 +39,9 @@ function AboutBlurb() {
                     <div className={styles.gg} />
                     <p className={styles.description}>
                         <br />
-                        I'm Brenda. I'm a Data Scientist and MSc student somewhere in Spain 🇪🇦.
-                        I'm interested in Data Art , Visualization and Analysis because everything therein
-                        depends on perspective and it's fun to see how many different perspectives do exist.
+                        I am Brenda; a Data Wizard and Creative Developer somewhere in Spain 🇪🇦.
+                        I am interested in Data Art , Visualization and Analysis because everything therein
+                        depends on perspective and it is just so much fun to see how many different perspectives do exist.
                         <br />
                         Outside of Data Science, I enjoy:
                     <ul>
@@ -58,7 +58,7 @@ function AboutBlurb() {
                     </a>
                     <br/>
                         You can always 📫 | 📜 to work on a project or just for a lovely chat ☕️.
-                        👯 BTW I’m also looking to collaborate on short-term social projects.
+                        👯 BTW I&apos;m also looking to collaborate on short-term social projects.
                     </p>
                     <div className={styles.gg} />
                 </div>

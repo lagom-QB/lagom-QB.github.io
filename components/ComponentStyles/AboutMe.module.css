@@ -7,10 +7,12 @@
   width: 60%;
 }
 .containerColumn{
+  margin-left: 4rem;
   columns: 2;
   font-weight: normal;
   display: flex;
   flex-wrap: wrap;
+  max-height: 50vh;
 }
 
 .entryText {

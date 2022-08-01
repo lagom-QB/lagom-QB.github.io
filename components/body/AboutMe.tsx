@@ -6,6 +6,9 @@ import styles from "../ComponentStyles/AboutMe.module.css";
 import { useAuthorsQuery } from "./fetchers/Author";
 import TextSwap from "./SwapAnimation";
 
+import TechSkills from "./AboutLanguages";
+import Tools from "./AboutTools";
+
 function AboutMe() {
   const { loading, error, data } = useAuthorsQuery();
   const name = "Quinsy Brenda";

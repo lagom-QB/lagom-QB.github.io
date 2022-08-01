@@ -90,6 +90,16 @@ function AboutMe() {
           </div>
         </div>
       </motion.ul>
+      <div className={styles.containerColumn}>
+            <motion.div className={styles.entryText} animate={{ opacity: [0, 1], x: [60, 420], y: [0, 100] }}
+                transition={{ duration: 2, type: "spring" , stiffness: 10, mass: 2, damping: 5, delay: 2, }}>
+                <TechSkills />
+            </motion.div>
+            <motion.div className={styles.entryText} animate={{ opacity: [0, 1], x: [420, 740], y: [0, 100] }}
+                transition={{ duration: 2, type: "spring" , stiffness: 10, mass: 2, damping: 5, delay: 3, }}>
+                <Tools />
+            </motion.div>
+        </div>
       
     </div>
   );

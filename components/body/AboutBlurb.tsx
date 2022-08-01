@@ -50,13 +50,13 @@ function AboutBlurb() {
                         <li>Drawing 🖋️</li>
                         <li>Novelties 🎊</li>
                     </ul>
-                    <br\>
+                    <br/>
                     I&apos;m currently working on
                     <a className={styles.links} href="https://github.com/lagom-QB">
                         {" "}
                         personal projects.
                     </a>
-                    <br\>
+                    <br/>
                         You can always 📫 | 📜 to work on a project or just for a lovely chat ☕️.
                         👯 BTW I’m also looking to collaborate on short-term social projects.
                     </p>

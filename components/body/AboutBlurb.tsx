@@ -20,7 +20,7 @@ function AboutBlurb() {
                 <div className={styles.gg} />
             </div>
             <div className={styles.Title}>
-                <h2>Hello there 👋</h2>
+                <h2>Hello there 👋 </h2>
             </div>
             <div>
                 <div className={styles.yellowRed}></div>

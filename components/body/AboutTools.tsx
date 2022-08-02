@@ -57,7 +57,7 @@ function Tools() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.ggr}>
+      <div className={styles.ggr} style={{left:"3rem"}}>
         <motion.h2
           animate={{
             color: [

@@ -61,7 +61,7 @@ function TechSkills() {
           <div className={styles.ggr}>
               <motion.h2 animate={{ color: [ "rgb(242, 159, 255)" , "rgb(124, 153, 255)" , "rgb(95, 10, 213)" , ], }}
                   transition={{ repeat: Infinity, duration: 3 }}>
-                  Programming
+                  👩‍💻💬
               </motion.h2>
           </div>
           <Suspense fallback={<pre>Loading ...</pre>}>

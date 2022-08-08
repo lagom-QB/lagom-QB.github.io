@@ -32,10 +32,10 @@ function AboutBlurb() {
                         <br />
                         Out of Data Science, I enjoy:
                     <ul>
-                        <li><div className={styles.disk}/>Walks 🥾 📸</li>
-                        <li><div className={styles.disk}/>Novels 📖 and Movies 🎞️</li>
-                        <li><div className={styles.disk}/>Drawing 🖋️</li>
-                        <li><div className={styles.disk}/>Novelties 🎊</li>
+                        <li><div className={styles.disk}>Walks 🥾 📸</li></div>
+                        <li><div className={styles.disk}>Novels 📖 and Movies 🎞️</li></div>
+                        <li><div className={styles.disk}>Drawing 🖋️</li></div>
+                        <li><div className={styles.disk}>Novelties 🎊</li></div>
                     </ul>
                     <br/>
                         You can always 📫 | 📜 to work on a project or just for a lovely chat ☕️.

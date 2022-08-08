@@ -12,11 +12,6 @@ function AboutBlurb() {
         <motion.div className={styles.entryText} animate={{ opacity: [0, 1], x: [60, 0] }} transition={{ duration: 2,
             type: "spring" , stiffness: 10, mass: 2, damping: 5, }}>
             <div className={styles.gg}>
-                <div className={styles.pinkBlue} />
-                <motion.h1 animate={{ color: [ "rgb(242, 159, 255)" , "rgb(124, 153, 255)" , "rgb(95, 10, 213)" , ], }}
-                    transition={{ repeat: Infinity, duration: 3 }}>
-                    About
-                </motion.h1>
                 <div className={styles.gg} />
             </div>
             <div className={styles.Title}>

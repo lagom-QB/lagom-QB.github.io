@@ -30,12 +30,12 @@ function AboutBlurb() {
                         I am a Data Wizard and Creative Developer somewhere in Spain 🇪🇦.
                         I am interested in Data Art because it is just so much fun to see how many different perspectives exist.
                         <br />
-                        Outside of Data Science, I enjoy:
+                        Out of Data Science, I enjoy:
                     <ul>
-                        <li>Walks 🥾 📸</li>
-                        <li>Novels 📖 and Movies 🎞️</li>
-                        <li>Drawing 🖋️</li>
-                        <li>Novelties 🎊</li>
+                        <li><div className={styles.yellowRed}/>Walks 🥾 📸</li>
+                        <li><div className={styles.yellowRed}/>Novels 📖 and Movies 🎞️</li>
+                        <li><div className={styles.yellowRed}/>Drawing 🖋️</li>
+                        <li><div className={styles.yellowRed}/>Novelties 🎊</li>
                     </ul>
                     <br/>
                         You can always 📫 | 📜 to work on a project or just for a lovely chat ☕️.

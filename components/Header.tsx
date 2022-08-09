@@ -13,9 +13,16 @@ const Header = () => {
         </Link>
         <Link href="/Work">
           <a data-id="Work" data-route="Work">
-            Work
+            Data Projects
           </a>
         </Link>
+        
+        <Link href="/FE">
+          <a data-id="FE" data-route="FE">
+            Creativity
+          </a>
+        </Link>
+        
         <Link href="/About">
           <a data-id="About" data-route="About">
             About

@@ -30,8 +30,7 @@ function AboutMe() {
 
   return (
     <>
-    <div className={styles.container} 
-      style={{display: flex; flex-direction: column; flex-wrap: wrap;}}>
+    <div className={styles.container} >
       <motion.ul
         className={styles.entryText}
         animate={{ x: [60, 0], opacity: [0, 1] }}

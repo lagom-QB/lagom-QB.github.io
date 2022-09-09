@@ -16,12 +16,6 @@ const Header = () => {
             Data Projects
           </a>
         </Link>
-        
-        <Link href="/FE">
-          <a data-id="FE" data-route="FE">
-            Creativity
-          </a>
-        </Link>
        
         <a href="https://qb-3d.netlify.app" rel="noreferrer" target="_blank" >Creativity</a>
         

@@ -23,7 +23,7 @@ const Header = () => {
           </a>
         </Link>
        
-        <a href="https://qb-3d.netlify.app" rel="noopener" target="_blank" >Creativity</a>
+        <a href="https://qb-3d.netlify.app" rel="noreferrer" target="_blank" >Creativity</a>
         
         <Link href="/About">
           <a data-id="About" data-route="About">
